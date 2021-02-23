@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GXLCategory_OC_Example' do
+  pod 'GXLCategory_OC', :path => '../'
+
+  target 'GXLCategory_OC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
