@@ -40,9 +40,9 @@
 		0C6347C8E4D971132DA3EA12 /* Pods-GXLCategory_OC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXLCategory_OC_Tests.release.xcconfig"; path = "Target Support Files/Pods-GXLCategory_OC_Tests/Pods-GXLCategory_OC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1CB19A9726E5341813D1FFB1 /* Pods-GXLCategory_OC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GXLCategory_OC_Example.debug.xcconfig"; path = "Target Support Files/Pods-GXLCategory_OC_Example/Pods-GXLCategory_OC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		28329C1D0F9914DA1EBE9EBA /* Pods_GXLCategory_OC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GXLCategory_OC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		310FE07FE4AAC7B10A40DEAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		46C71E541A31FFD6D2335B1A /* GXLCategory_OC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GXLCategory_OC.podspec; path = ../GXLCategory_OC.podspec; sourceTree = "<group>"; };
-		51090763313CBB522EABC858 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		310FE07FE4AAC7B10A40DEAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		46C71E541A31FFD6D2335B1A /* GXLCategory_OC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GXLCategory_OC.podspec; path = ../GXLCategory_OC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		51090763313CBB522EABC858 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GXLCategory_OC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXLCategory_OC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,6 @@
 				B2D61F285C12E272EFF16965 /* Pods-GXLCategory_OC_Tests.debug.xcconfig */,
 				0C6347C8E4D971132DA3EA12 /* Pods-GXLCategory_OC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - GXLCategory_OC (0.1.0)
+
+DEPENDENCIES:
+  - GXLCategory_OC (from `../`)
+
+EXTERNAL SOURCES:
+  GXLCategory_OC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GXLCategory_OC: fb93d3e72c67b789b374ce8eea2ea1ebb70dd98e
+
+PODFILE CHECKSUM: 9fb18ad602803da9be1b5aa26bc6f303c03c9ee9
+
+COCOAPODS: 1.10.1
