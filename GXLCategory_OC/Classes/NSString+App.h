@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)isValidatePhoneNum:(NSString *)phoneNum;
 
 /** 手机号格式 添加空格 */
-+ (NSString *)instStrSpace:(NSString *)phoneNum
++ (NSString *)instStrSpace:(NSString *)phoneNum;
 
 /*  密码  */
 /** 支付密码正则表达式 */
