@@ -27,3 +27,13 @@ pod 'GXLCategory_OC'
 ## License
 
 GXLCategory_OC is available under the MIT license. See the LICENSE file for more info.
+
+## 0.1.1
+```
+1、获取用户坐标
+2、手机正则表达式、手机号格式 
+3、添加空格
+4、支付密码正则表达式、
+5、去掉字符串空格
+```
+

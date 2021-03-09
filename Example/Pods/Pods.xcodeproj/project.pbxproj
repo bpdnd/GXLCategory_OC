@@ -16,6 +16,8 @@
 		BA51C86D0AC91E137D4DF36CDA440CBB /* GXLCategory_OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E13F8D7C61858D1935F31A78894429C /* GXLCategory_OC-dummy.m */; };
 		DB7FF13925E49E990006CE76 /* NSString+FF.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7FF13725E49E990006CE76 /* NSString+FF.h */; };
 		DB7FF13A25E49E990006CE76 /* NSString+FF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7FF13825E49E990006CE76 /* NSString+FF.m */; };
+		DBEDC20525F721D20042F432 /* NSString+App.h in Headers */ = {isa = PBXBuildFile; fileRef = DBEDC20325F721D20042F432 /* NSString+App.h */; };
+		DBEDC20625F721D20042F432 /* NSString+App.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEDC20425F721D20042F432 /* NSString+App.m */; };
 		DCF748BECB8B99107D6E90B7DACDE037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E69200208946F31AA77C133622B40F6B /* Pods-GXLCategory_OC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F44D1A28D757AC98E8C0872D8A2327A8 /* Pods-GXLCategory_OC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -69,6 +71,8 @@
 		D36D1FF40BFA06F7042B3535CB9DF01B /* GXLCategory_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GXLCategory_OC.debug.xcconfig; sourceTree = "<group>"; };
 		DB7FF13725E49E990006CE76 /* NSString+FF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+FF.h"; path = "GXLCategory_OC/Classes/NSString+FF.h"; sourceTree = "<group>"; };
 		DB7FF13825E49E990006CE76 /* NSString+FF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+FF.m"; path = "GXLCategory_OC/Classes/NSString+FF.m"; sourceTree = "<group>"; };
+		DBEDC20325F721D20042F432 /* NSString+App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+App.h"; path = "GXLCategory_OC/Classes/NSString+App.h"; sourceTree = "<group>"; };
+		DBEDC20425F721D20042F432 /* NSString+App.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+App.m"; path = "GXLCategory_OC/Classes/NSString+App.m"; sourceTree = "<group>"; };
 		E43FD8020DADBC5776EBBE12BAA3BC8C /* Pods-GXLCategory_OC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GXLCategory_OC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F32F1F85A9742906510B7682E2415606 /* Pods_GXLCategory_OC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GXLCategory_OC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44D1A28D757AC98E8C0872D8A2327A8 /* Pods-GXLCategory_OC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GXLCategory_OC_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 			children = (
 				DB7FF13725E49E990006CE76 /* NSString+FF.h */,
 				DB7FF13825E49E990006CE76 /* NSString+FF.m */,
+				DBEDC20325F721D20042F432 /* NSString+App.h */,
+				DBEDC20425F721D20042F432 /* NSString+App.m */,
 				BE4B13288516008575AB88F03BBC293F /* Pod */,
 				FC73A277BCA83E639815BA93BB39F314 /* Support Files */,
 			);
@@ -235,6 +241,7 @@
 			files = (
 				DB7FF13925E49E990006CE76 /* NSString+FF.h in Headers */,
 				5B08B715CD9EAD2C70108BCABE1192D7 /* GXLCategory_OC-umbrella.h in Headers */,
+				DBEDC20525F721D20042F432 /* NSString+App.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEDC20625F721D20042F432 /* NSString+App.m in Sources */,
 				BA51C86D0AC91E137D4DF36CDA440CBB /* GXLCategory_OC-dummy.m in Sources */,
 				DB7FF13A25E49E990006CE76 /* NSString+FF.m in Sources */,
 			);
